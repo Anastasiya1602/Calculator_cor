@@ -1,0 +1,64 @@
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-image: url('./EKG_0-1.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+}
+
+.container {
+  padding: 60px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.title {
+  color: #4f3b9f;
+}
+
+input {
+  width: 250px;
+  margin-top: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+label {
+  color: #4f3b9f;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #52379e;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8958ae;
+}
+
+.result {
+  font-size: 22px;
+  color: #4f3b9f;
+}

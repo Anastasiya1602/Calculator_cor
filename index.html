@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Калькулятор ИММЛЖ</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+
+      <h2 class="title">Калькулятор ИММЛЖ</h2>
+  
+      <div>
+        <label for="lvm">Масса левого желудочка (в граммах):</label>
+        <input type="number" id="lvm" step="any">
+      </div>
+  
+      <div>
+        <label for="height">Рост (в метрах):</label>
+        <input type="number" id="height" step="any">
+      </div>
+  
+      <button onclick="calculateLVMIndex()">Рассчитать</button>
+      
+      <div class="result" id="result"></div>
+  
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
